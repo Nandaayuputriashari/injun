@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Pendaftaran Kerja Praktek</title>
+</head>
+<body>
+    <div style="background-color: #FFFF ;" class="container p-3 my-3 border">
+        <h1 class="text-center">FORM PENDAFTARAN KERJA PRAKTEK</h1>
+        <form id="form" method="POST">
+            <div class="alert alert-secondary">
+                <strong>DATA DIRI</strong>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tempat Kerja Praktek</label>
+                        <input type="text " name="NAMA" class="form-control" placeholder="Masukkan Tempat Kerja Praktek">
+                    </div>
+                </div>
+                <div class="container">
+                <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Alamat Kerja Praktek</label>
+                        <input type="text " name="Alamat" class="form-control" placeholder="Masukkan Alamat Kerja Praktek">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label>Tanggal_Mulai :</label>
+                        <input type="date" name="Tanggal_Mulai" class="form-control">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-grup">
+                        <label>Tanggal_Selesai :</label>
+                        <input type="date" name="Tanggal_Selesai" class="form-control">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <label>Proposal :</label>
+                        <input type="file" name="file">
+                    </div>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        
+                        <button type="submit" name="Submite" class="btn btn-primary">DAFTAR</button>
+                        <button type="reset" name="reset" class="btn btn-secondary">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
