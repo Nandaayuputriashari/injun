@@ -22,7 +22,7 @@
 		</a>
 		<ul class="side-menu top">
 			<li >
-				<a href="index.php">
+				<a href="dashboard.php">
 					<i class='bx bxs-home' ></i>
 					<span class="text">Dashboard</span>
 				</a>
