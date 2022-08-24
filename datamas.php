@@ -66,9 +66,6 @@
 			<i class='bx bx-menu' ></i>
 			<form action="#">
 			</form>
-			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
-			
 			<a href="#" class="profile">
 				<img src="img/people.png">
 			</a>
@@ -116,9 +113,6 @@
 					</span>
 				</li>
 			</ul>
-
-
-			
 		</main>
 		<!-- MAIN -->
 	</section>
