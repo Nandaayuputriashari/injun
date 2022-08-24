@@ -48,7 +48,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#" class="logout">
+				<a href="logout.php" class="logout">
 					<i class='bx bxs-log-out-circle' ></i>
 					<span class="text">Logout</span>
 				</a>
@@ -66,6 +66,9 @@
 			<i class='bx bx-menu' ></i>
 			<form action="#">
 			</form>
+			<input type="checkbox" id="switch-mode" hidden>
+			<label for="switch-mode" class="switch-mode"></label>
+			
 			<a href="#" class="profile">
 				<img src="img/people.png">
 			</a>
@@ -113,6 +116,9 @@
 					</span>
 				</li>
 			</ul>
+
+
+			
 		</main>
 		<!-- MAIN -->
 	</section>

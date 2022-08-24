@@ -48,7 +48,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="#" class="logout">
+				<a href="logout.php" class="logout">
 					<i class='bx bxs-log-out-circle' ></i>
 					<span class="text">Logout</span>
 				</a>
@@ -64,11 +64,11 @@
 		<!-- NAVBAR -->
 		<nav>
 			<i class='bx bx-menu' ></i>
+			<a href="#" class="nav-link"></a>
 			<form action="#">
+				<div class="form-input">
+				</div>
 			</form>
-			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
-			
 			<a href="#" class="profile">
 				<img src="img/people.png">
 			</a>
@@ -76,6 +76,7 @@
 		<!-- NAVBAR -->
 
 		<!-- MAIN -->
+		
 		<main>
 			<div class="head-title">
 				<div class="left">
@@ -86,83 +87,72 @@
 						</li>
 						<li><i class='bx bx-chevron-right' ></i></li>
 						<li>
-							<a class="active" href="#">Home </a>
+							<a class="active" href="#">Home</a>
 						</li>
 					</ul>
 				</div>
-				
 			</div>
-			<div class="profile-card">
-				<div class="card">
-					<img src="img/1.png" class="card-img">
-					<div class="info">
-						<p>Nama : Lorem Ipsum</p>
+		</nav>
+		<div class="container">
+			<div class="form-group mb-4">
+				<div class="form-row">
+					<div class="col-lg-3">
+					 <h3>Foto</h3>
+					</div>
+					<div class="col-lg-9">
+						<h3 class="text-center">Selamat Datang di SIM Dosen Politeknik Negeri Banyuwangi</h3>
+						<div class="form-group">
+							<div class="form-row">
+								<div class="col-md-4">NIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 199203302019031012</div>
+								<div class="col-md-8"></div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-4">Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Lutfi Hakim S.Pd.,M.T.</div>
+								<div class="col-md-8"></div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-4">Alamat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jln. Kepodang no.11 RT 01 RW 02, Kalirejo, Kabat, Banyuwangi</div>
+								<div class="col-md-8"></div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-4">No. Telp/HP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 085330161514</div>
+								<div class="col-md-8"></div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-4">Dosen Jurusan&nbsp;&nbsp;&nbsp;&nbsp;: Teknik Informatika</div>
+								<div class="col-md-8"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</body>
 
-			
-
-			<div class="table-data">
-				<div class="order">
-					<div class="head">
-						<h3>Recent Orders</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<table>
-						<thead>
-							<tr>
-								<th>Mahasiswa</th>
-								<th>Date Order</th>
-								<th>Status</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="img/people.png">
-									<p>John Doe</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-			</div>	
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3>5</h3>
+						<p>Mahasiswa KP</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-edit' ></i>
+					<span class="text">
+						<h3>4</h3>
+						<p>Mahasiswa Sudah Ujian</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-select-multiple' ></i>
+					<span class="text">
+						<h3>6</h3>
+						<p>Mahasiswa Lulus KP</p>
+					</span>
+				</li>
+			</ul>
 		</main>
 		<!-- MAIN -->
 	</section>

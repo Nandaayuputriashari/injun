@@ -376,7 +376,24 @@ body {
 	grid-gap: 10px;
 	font-weight: 500;
 }
-
+.container {
+	padding: 24px;
+	background: var(--light);
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	grid-gap: 24px;
+}
+.form-group {
+	padding: 10px 0 0 100px;
+}
+.col-md-4 {
+	margin-top: 0px;
+}
+.col-md-8 {
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
 
 
 
