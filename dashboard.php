@@ -9,7 +9,7 @@
 	<!-- My CSS -->
 	<link rel="stylesheet" href="dashboard.css">
 
-	<title>AdminHub</title>
+	<title>Poliwangi Dosen</title>
 </head>
 <body>
 

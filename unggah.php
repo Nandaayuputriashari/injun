@@ -9,7 +9,7 @@
 	<!-- My CSS -->
 	<link rel="stylesheet" href="unggah.css">
 
-	<title>AdminHub</title>
+	<title>Poliwangi Dosen</title>
 </head>
 <body>
 
@@ -62,6 +62,8 @@
 	<!-- CONTENT -->
 	<section id="content">
 		<!-- NAVBAR -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" type="teks/css" href="admind.css">
 		<nav>
 			<i class='bx bx-menu' ></i>
 			<form action="#">
@@ -93,29 +95,7 @@
 				
 			</div>
 
-			<ul class="box-info">
-				<li>
-					<i class='bx bxs-calendar-check' ></i>
-					<span class="text">
-						<h3>1020</h3>
-						<p>New Order</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-group' ></i>
-					<span class="text">
-						<h3>2834</h3>
-						<p>Visitors</p>
-					</span>
-				</li>
-				<li>
-					<i class='bx bxs-dollar-circle' ></i>
-					<span class="text">
-						<h3>$2543</h3>
-						<p>Total Sales</p>
-					</span>
-				</li>
-			</ul>
+			
 
 
 			
@@ -123,7 +103,64 @@
 		<!-- MAIN -->
 	</section>
 	<!-- CONTENT -->
-	
+	</div>
+      <div class="col-md-10 p-5 pt-2">
+        <h3><i class=" fas fa-user-graduate mr-2"></i> Nilai Mahasiswa</h3><hr>
+      
+        <table class="table table-striped table bordered">
+          <thead>
+            <tr>
+              <th scope="col">NO</th>
+              <th scope="col">NIM</th>
+              <th scope="col">NAMA</th>
+              <th scope="col">Mata Kuliah</th>
+              <th scope="col">Kelas</th>
+              <th scope="col">Nilai Absensi</th>
+              <th scope="col">Nilai Tugas Harian</th>
+              <th scope="col">Nilai UTS</th>
+              <th scope="col">Nilai UAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>001</td>
+              <td>Ahmad Syafi' Azka.A</td>
+              <td>PBO</td>
+              <td>1D TPRL</td>
+              <TD> 90</TD>
+              <TD> 80</TD>
+              <TD> 85</TD>
+              <TD> 90</TD>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>002</td>
+              <td>Putra Questy</td>
+              <td>PBO</td>
+              <td>1D</td>
+              <td>85</td>
+              <TD>80</TD>
+              <TD>85</TD>
+              <TD>80</TD>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>003</td>
+              <td>Juniardanu </td>
+              <td>PBO</td>
+              <td>1D</td>
+              <td>90</td>
+              <TD>80</TD>
+              <TD>95</TD>
+              <TD>80</TD>
+            </tr>
+          </tbody>
+        </table>
+      
+      
+      </div>
+    </div>
 
 	<script src="script.js"></script>
 </body>
