@@ -26,6 +26,7 @@ include "koneksi.php";
     </div>
 
     <div class="card mt-3">
+<<<<<<< HEAD
       <div class="card-header bg-primary text-white">
         Data Mahasiswa
       </div>
@@ -34,6 +35,16 @@ include "koneksi.php";
         <button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#modalTambah">
           Tambah Data
         </button>
+=======
+  <div class="card-header bg-primary text-white">
+    BIMBINGAN MAHASISWA
+  </div>
+  <div class="card-body">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#modalTambah">
+  Tambah Data
+</button>
+>>>>>>> 49dca362329d55c7e23720b8a823ca9c81f39442
 
 
         <table class="table table-bordered table-striped table-hover">
