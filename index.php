@@ -27,7 +27,7 @@
 
     <div class="card mt-3">
   <div class="card-header bg-primary text-white">
-    Data Mahasiswa
+    BIMBINGAN MAHASISWA
   </div>
   <div class="card-body">
     <!-- Button trigger modal -->
