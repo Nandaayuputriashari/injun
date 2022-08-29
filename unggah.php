@@ -23,7 +23,7 @@
 			<img class="bx bxs-smile" src="img/poliwangi.png" alt="" width="50px">
 			<span class="text">Poliwangi</span>
 		</a>
-		
+
 		<ul class="side-menu top">
 			<li class="#">
 				<a href="dashboard.php">
@@ -37,18 +37,18 @@
 					<span class="text">Data Mahasiswa</span>
 				</a>
 			</li>
-            <li class="#">
-                <a href="datamas.php">
-                    <i class='bx bxs-'></i>
-                    <span class="text">Monitoring</span>
-                </a>
-            </li>
-            <li class="#">
-                <a href="diuji.php">
-                    <i class='bx bxs-'></i>
-                    <span class="text">Diuji</span>
-                </a>
-            </li>
+			<li class="#">
+				<a href="datamas.php">
+					<i class='bx bxs-'></i>
+					<span class="text">Monitoring</span>
+				</a>
+			</li>
+			<li class="#">
+				<a href="diuji.php">
+					<i class='bx bxs-'></i>
+					<span class="text">Diuji</span>
+				</a>
+			</li>
 			<li class="active">
 				<a href="unggah.php">
 					<i class='bx bxs-cloud-upload'></i>
@@ -93,77 +93,90 @@
 					<h1>Dashboard</h1>
 					<ul class="breadcrumb">
 						<li>
-							<a href="#">Dashboard</a>
-						</li>
-						<li><i class='bx bx-chevron-right'></i></li>
-						<li>
-							<a class="active" href="#">Home</a>
+							<a class="active" href="#">Unggah Nilai</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 			<br>
-			<div class="container">
-				<div>
-					<table class="table table-striped table-hover">
-						<thead>
-							<tr>
-								<th scope="col">NO</th>
-								<th scope="col">NIM</th>
-								<th scope="col">NAMA</th>
-								<th scope="col">Mata Kuliah</th>
-								<th scope="col">Kelas</th>
-								<th scope="col">Nilai Absensi</th>
-								<th scope="col">Nilai Tugas Harian</th>
-								<th scope="col">Nilai UTS</th>
-								<th scope="col">Nilai UAS</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<th scope="row">1</th>
-								<td>001</td>
-								<td>Ahmad Syafi' Azka.A</td>
-								<td>PBO</td>
-								<td>1D TPRL</td>
-								<TD> 90</TD>
-								<TD> 80</TD>
-								<TD> 85</TD>
-								<TD> 90</TD>
-							</tr>
-							<tr>
-								<th scope="row">2</th>
-								<td>002</td>
-								<td>Putra Questy</td>
-								<td>PBO</td>
-								<td>1D</td>
-								<td>85</td>
-								<TD>80</TD>
-								<TD>85</TD>
-								<TD>80</TD>
-							</tr>
-							<tr>
-								<th scope="row">3</th>
-								<td>003</td>
-								<td>Juniardanu </td>
-								<td>PBO</td>
-								<td>1D</td>
-								<td>90</td>
-								<TD>80</TD>
-								<TD>95</TD>
-								<TD>80</TD>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+
+			<link href="css/bootstrap.min.css" rel="stylesheet">
+			<script src="js/bootstrap.bundle.min.js"></script>
+
+			<head>
+				<meta charset="utf-8">
+				<!-- Bootsrap -->
+				<link href="css/bootstrap.min.css" rel="stylesheet">
+				<script src="js/bootstrap.bundle.min.js"></script>
+
+				<!--font awesome-->
+				<link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+				<title>Poliwangi Dosen</title>
+			</head>
+
+			<body>
+				<nav class="navbar bg-light">
+					<div class="container-fluid">
+						<a class="navbar-brand" href="#">
+						</a>
+					</div>
+				</nav>
+
+				<!--jUDUL -->
+				<div class="container">
+					<a href="kelola.php" type="button" class="btn btn-primary">
+						<i class="fa fa-plus"></i>
+						Tambah data
+					</a>
+					<div class="table-responsive">
+						<table class="table align-middle">
+							<thead>
+								<tr>
+									<th>No.</th>
+									<th>NIM</th>
+									<th>NAMA</th>
+									<th>Mata Kuliah</th>
+									<th>Absensi</th>
+									<th>UTS</th>
+									<th>Tugas</th>
+									<th>UAS</th>
+									<th>Nilai Huruf</th>
+									<th>Aksi</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1.</td>
+									<td>01112</td>
+									<td>Ahmad Syafi' Azka Azkiya</td>
+									<td>PBO</td>
+									<td>100</td>
+									<td>100</td>
+									<td>100</td>
+									<td>100</td>
+									<td>A</td>
+									<td>
+										<a href="kelola2.php" button type="button" class="btn btn-success btn-sam">
+											Ubah
+											</button>
+											<a href="kelola.php" button type="button" class="btn btn-danger btn-sam">
+												Hapus
+											</a>
+									</td>
+								</tr>
+			</body>
+			</table>
 			</div>
-		</main>
-		<!-- MAIN -->
-	</section>
-	<!-- CONTENT -->
+			</div>
+</body>
+</main>
+<!-- MAIN -->
+</section>
+<!-- CONTENT -->
 
 
-	<script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
