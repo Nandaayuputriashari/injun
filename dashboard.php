@@ -8,7 +8,7 @@
 	<!-- Boxicons -->
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<!-- My CSS -->
-	<link rel="stylesheet" href="dashboard.css">
+	<link rel="stylesheet" href="ds.css">
 
 	<title>Poliwangi Dosen</title>
 </head>
@@ -43,12 +43,6 @@
 			</li>
 		</ul>
 		<ul class="side-menu">
-			<li>
-				<a href="#">
-					<i class='bx bxs-cog'></i>
-					<span class="text">Settings</span>
-				</a>
-			</li>
 			<li>
 				<a href="logout.php" class="logout">
 					<i class='bx bxs-log-out-circle'></i>
@@ -85,11 +79,7 @@
 					<h1>Dashboard</h1>
 					<ul class="breadcrumb">
 						<li>
-							<a href="#">Dashboard</a>
-						</li>
-						<li><i class='bx bx-chevron-right'></i></li>
-						<li>
-							<a class="active" href="#">Home</a>
+							<a class="active" href="#">Dashboard</a>
 						</li>
 					</ul>
 				</div>
@@ -101,25 +91,23 @@
 					<div class="col-lg-9">
 						<h3 class="text-center">Selamat Datang di SIM Dosen Politeknik Negeri Banyuwangi</h3>
 						<div class="form-group">
+							<a href="#" class="prof">
+								<img src="img/3.png">
+							</a>
 							<div class="form-row">
-								<div class="col-md-4">NIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 199203302019031012</div>
-								<div class="col-md-8"></div>
+								<div class="col-md-4">NIP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 199203302019031012</div>
 							</div>
 							<div class="form-row">
-								<div class="col-md-4">Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Lutfi Hakim S.Pd.,M.T.</div>
-								<div class="col-md-8"></div>
+								<div class="col-md-4">Nama&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Lutfi Hakim S.Pd.,M.T.</div>
 							</div>
 							<div class="form-row">
-								<div class="col-md-4">Alamat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jln. Kepodang no.11 RT 01 RW 02, Kalirejo, Kabat, Banyuwangi</div>
-								<div class="col-md-8"></div>
+								<div class="col-md-4">Alamat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Jln. Kepodang no.11 RT 01 RW 02, Kalirejo, Kabat, Banyuwangi</div>
 							</div>
 							<div class="form-row">
-								<div class="col-md-4">No. Telp/HP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 085330161514</div>
-								<div class="col-md-8"></div>
+								<div class="col-md-4">No. Telp/HP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: 085330161514</div>
 							</div>
 							<div class="form-row">
-								<div class="col-md-4">Dosen Jurusan&nbsp;&nbsp;&nbsp;&nbsp;: Teknik Informatika</div>
-								<div class="col-md-8"></div>
+								<div class="col-md-4">Dosen Jurusan&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Teknik Informatika</div>
 							</div>
 						</div>
 					</div>

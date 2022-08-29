@@ -376,6 +376,9 @@ body {
 	grid-gap: 10px;
 	font-weight: 500;
 }
+.text-center {
+	padding: 10px 0 0 150px;
+}
 .container {
 	padding: 24px;
 	background: var(--light);
@@ -384,19 +387,11 @@ body {
 	align-items: center;
 	grid-gap: 24px;
 }
-.form-group {
-	padding: 10px 0 0 100px;
-}
 .prof {
-	width: 10px;
-	height: 10px;
+	padding: 10px 0 0 350px;
 }
-.col-md-4 {
-	margin-top: 0px;
-}
-.col-md-8 {
-	margin-left: 200px;
-	margin-bottom: 20px;
+.form-row {
+	padding: 10px 0 0 50px;
 }
 
 
