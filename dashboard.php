@@ -35,6 +35,18 @@
 					<span class="text">Data Mahasiswa</span>
 				</a>
 			</li>
+            <li class="#">
+                <a href="datamas.php">
+                    <i class='bx bxs-'></i>
+                    <span class="text">Monitoring</span>
+                </a>
+            </li>
+            <li class="#">
+                <a href="diuji.php">
+                    <i class='bx bxs-'></i>
+                    <span class="text">Diuji</span>
+                </a>
+            </li>
 			<li>
 				<a href="unggah.php">
 					<i class='bx bxs-cloud-upload'></i>

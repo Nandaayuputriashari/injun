@@ -37,6 +37,18 @@
 					<span class="text">Data Mahasiswa</span>
 				</a>
 			</li>
+            <li class="#">
+                <a href="datamas.php">
+                    <i class='bx bxs-'></i>
+                    <span class="text">Monitoring</span>
+                </a>
+            </li>
+            <li class="#">
+                <a href="diuji.php">
+                    <i class='bx bxs-'></i>
+                    <span class="text">Diuji</span>
+                </a>
+            </li>
 			<li class="active">
 				<a href="unggah.php">
 					<i class='bx bxs-cloud-upload'></i>
@@ -45,12 +57,6 @@
 			</li>
 		</ul>
 		<ul class="side-menu">
-			<li>
-				<a href="#">
-					<i class='bx bxs-cog'></i>
-					<span class="text">Settings</span>
-				</a>
-			</li>
 			<li>
 				<a href="logout.php" class="logout">
 					<i class='bx bxs-log-out-circle'></i>

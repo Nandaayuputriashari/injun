@@ -16,12 +16,12 @@ if(isset($_POST['bsimpan'])) {
     if($simpan){
         echo "<script>
                 alert('Simpan data Sukses!');
-                document.location='uji.php';
+                document.location='diuji.php';
             </script>";
     } else {
         echo "<script>
                 alert('Simpan data Gagal!');
-                document.location='uji.php';
+                document.location='diuji.php';
             </script>";
     }
 }
@@ -41,12 +41,12 @@ if(isset($_POST['bubah'])) {
     if($ubah){
         echo "<script>
                 alert('Ubah data Sukses!');
-                document.location='uji.php';
+                document.location='diuji.php';
             </script>";
     } else {
         echo "<script>
                 alert('Ubah data Gagal!');
-                document.location='uji.php';
+                document.location='diuji.php';
             </script>";
     }
 }
