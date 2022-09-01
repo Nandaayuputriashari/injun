@@ -134,7 +134,7 @@
                                     <th>Nama Lengkap</th>
                                     <th>Alamat</th>
                                     <th>Jurusan</th>
-                                    <th>Aksi</th>
+                                    <th colspan="2">Aksi</th>
                                 </tr>
 
                                 <?php
@@ -154,9 +154,12 @@
                                         <td><?= $data['prodi'] ?></td>
                                         <td>
                                             <a href="#" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modalUbah<?= $no ?>">Ubah</a>
+                                        </td>
+                                        <td>
                                             <a href="#" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalHapus<?= $no ?>">Hapus</a>
                                         </td>
                                     </tr>
+
 
                                     <!-- Awal Modal Ubah -->
                                     <div class="modal fade" id="modalUbah<?= $no ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -263,7 +266,7 @@
 
                                                 <div class="mb-3">
                                                     <label class="form-label">Alamat</label>
-                                                    <textarea class="form-control" name="talamat " rows="3"></textarea>
+                                                    <input type="text" class="form-control" name="talamat" placeholder="#">
                                                 </div>
 
                                                 <div class="mb-3">
