@@ -38,7 +38,7 @@
             <li class="active">
                 <a href="datamas.php">
                     <i class='bx bxs-'></i>
-                    <span class="text">Monitoring</span>
+                    <span class="text">Bimbingan</span>
                 </a>
             </li>
             <li class="#">
